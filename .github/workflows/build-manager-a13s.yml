@@ -23,7 +23,7 @@ jobs:
             os: ubuntu-latest
           - target: x86_64-linux-android
             os: ubuntu-latest
-    uses: ./.github/workflows/ksud.yml
+    uses: ./.github/workflows/ksud_a13s.yml
     with:
       target: ${{ matrix.target }}
       os: ${{ matrix.os }}
